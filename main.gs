@@ -1,19 +1,6 @@
 function scheduleMonth() {
     var scheduler = new Scheduler(false);
     scheduler.run();
-
-
-    /*
-     var currentCalendar = CalendarApp.getCalendarsByName("Расходы")[0];
-     currentCalendar
-     CalendarApp.getCalendarsByName("Расходы")
-     doctors=["Стоматолог", "Гинеколог", "Нефролог", "Невропатолог", "Кардиолог", "Гастроэнтеролог", "Окулист", "Эндокринолог"];
-     for (i=1;i<=doctors.length-1;i++)
-     {
-     j=i-1;
-     currentCalendar.createAllDayEvent(doctors[j], new Date('2016/0'+i+'/26'));
-     }
-     */
 }
 
 function Scheduler(thisMonth) {
