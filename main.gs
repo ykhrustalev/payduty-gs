@@ -1,7 +1,10 @@
-function scheduleMonth() {
-    var scheduler = new Scheduler(false);
-    scheduler.run();
+function scheduleThisMonth() {
+    new Scheduler(true).run();
 }
+function scheduleNextMonth() {
+    new Scheduler(false).run();
+}
+
 
 function Scheduler(thisMonth) {
     this.thisMonth = thisMonth;
